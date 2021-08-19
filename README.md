@@ -4,7 +4,7 @@ js/ts/hooks个人笔记：https://docs.google.com/document/d/1I-CYsCog0JcqBwE4MJ
 
 数据流为Model + Service + Component，内有部分注释
 
-# Team members:
+# Team members
 Frontend: Jiekun Liu, Xiaoqian Liu, Haixu Wang
 Backend: Hong Lu, Phillip Chan, Fu Lin, Baiyu Chen, Ray Zhang, Yichen Du
 
