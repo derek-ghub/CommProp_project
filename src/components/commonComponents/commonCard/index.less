@@ -1,0 +1,102 @@
+.common-card {
+  height: 100%;
+  padding: 16px 24px;
+  overflow: hidden;
+  color: #373e51;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 rgb(235, 239, 250);
+  margin-top: 8px;
+  .ant-card-head {
+    min-height: unset;
+    //margin-bottom: 24px;
+    padding: unset;
+    border: unset;
+    .ant-tabs {
+      margin-bottom: 0;
+    }
+  }
+
+  .ant-card-bordered {
+    border: unset;
+  }
+
+  .ant-card-head-title {
+    margin-bottom: 14px;
+    padding: unset;
+    &::before {
+      position: relative;
+      top: 4px;
+      display: inline-block;
+      float: left;
+      width: 2px;
+      height: 17px;
+      margin-right: 5px;
+      background: #547ff2;
+      content: '';
+    }
+  }
+
+  .ant-card-body {
+    padding: 0;
+    border-radius: 4px;
+  }
+
+  .ant-space-item {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .ant-tabs-tab {
+    padding: 0 0 5px 0;
+  }
+
+  .ant-tabs-large > .ant-tabs-nav .ant-tabs-tab {
+    padding: 0 0 5px 0;
+  }
+
+  .ant-btn-primary {
+    color: #fff !important;
+    background: #547ff2;
+  }
+
+  .ant-btn:hover {
+    color: #7699f5;
+    border: 1px solid #7699f5;
+  }
+
+  .ant-btn:focus {
+    color: #4d74de;
+    border: 1px solid #7699f5;
+  }
+
+  .ant-btn-primary:hover {
+    background: #7699f5;
+  }
+
+  .ant-btn-primary:focus {
+    background: #4d74de;
+  }
+
+  .ant-btn {
+    color: #547ff2;
+    border: 1px solid #547ff2;
+  }
+
+  .ant-btn-link {
+    color: #547ff2;
+  }
+
+  // 标题选择标签样式
+  .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    color: #547ff2;
+  }
+
+  .ant-tabs-tab:hover {
+    color: #547ff2;
+  }
+
+  .ant-tabs-ink-bar {
+    background: #547ff2;
+  }
+}
