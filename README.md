@@ -4,6 +4,10 @@ js/ts/hooks个人笔记：https://docs.google.com/document/d/1I-CYsCog0JcqBwE4MJ
 
 数据流为Model + Service + Component，内有部分注释
 
+# Team members:
+Frontend: Jiekun Liu, Xiaoqian Liu, Haixu Wang
+Backend: Hong Lu, Phillip Chan, Fu Lin, Baiyu Chen, Ray Zhang, Yichen Du
+
 # 项目启动
 node版本需要在8.0以上
 1. 全局安装yarn： npm install -g yarn
